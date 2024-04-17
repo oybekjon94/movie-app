@@ -8,5 +8,6 @@
 - Retrofit
 - Movie Api
 
-![Screenshot_20240417_110517](https://github.com/oybekjon94/movie-app/assets/91370134/b8ea8406-10ca-4536-9da5-b9c21f635556)
+<img src="https://github.com/oybekjon94/movie-app/assets/91370134/b8ea8406-10ca-4536-9da5-b9c21f635556"  width="300" height="700" />
+
 
