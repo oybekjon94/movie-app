@@ -9,33 +9,35 @@
 - Movie Api
 
 ### 🏗️ Project Structure:
-
+````
 ├── src
-|    ├── composable
-|    |    └── ConvertScreen
+|    ├── adapter
+|    |    └── TvShowAdapter
 |    |  
-|    ├── data
-|    |    ├── models
-|    |    |     ├── ExchangeResponse
-|    |    |     ├── Info
-|    |    |     └── Query
-|    |    └── ConvertApi
+|    ├── api
+|    |   └── ApiService
+|    |   
 |    |
 |    ├── di
-|    |    └── AppModule
+|    |    └── ApiModule
 |    |
-|    ├── main
-|    |    ├── MainRepository
-|    |    ├── MainRepositoryImpl
-|    |    └── MainViewModel
+|    ├── helper
+|    |    ├── Constants
+|    |    └── MyApplication
 |    |
-└──  ├── utils
-     |    ├── ConvertEvent
-     |    └── Resource
+|    ├── models
+|    |    ├── Image
+|    |    ├── TvShowResponse
+|    |    └── TvShowItem
+|    ├── repository
+|    |    └── TvShowRepository
+└──  ├── viewModel
+     |    └── TvShowViewModel
      |
-     ├── MainActiv
+     |
+     └── MainActivity
      
-
+````
 <img src="https://github.com/oybekjon94/movie-app/assets/91370134/b8ea8406-10ca-4536-9da5-b9c21f635556"  width="300" height="700" />
 
 
